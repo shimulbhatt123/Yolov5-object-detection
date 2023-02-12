@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['persons']
+
+roboflow:
+  workspace: shimul-bhattacharjee
+  project: object-detection-on-llvip
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/shimul-bhattacharjee/object-detection-on-llvip/dataset/2
